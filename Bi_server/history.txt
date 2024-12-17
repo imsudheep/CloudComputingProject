@@ -1,0 +1,127 @@
+ 411  cd /
+  412  cd home
+  413  cd administrator
+  414  cd skavas
+  415  cd skacas
+  416  cd Desktop
+  417  mkdir Bi_server
+  418  cd Bi_server
+  419  mkdir ETL
+  420  mkdir Reports
+  421  mkdir Data_Analysis
+  422  mkdir Raw_Data
+  423  mkdir Archived_Reports
+  424  cd Reports
+  425  touch monthly_sales_report.pdf
+  426  touch quarterly_report.pdf
+  427  cd Raw_Data
+  428  cd ..
+  429  cd Raw_Data
+  430  touch sales_data_jan.csv
+  431  cd ..
+  432  cd Archived_Reports
+  433  touch Annual_Report
+  434  cd ..
+  435  cd Data_Analysis
+  436  touch Client_Datas
+  437  cd ..
+  438  cd ETL
+  439  touch Script_Files
+  440  cd ..
+  441  mv Bi_server/Reports/quarterly_report.pdf Bi_server/Archived_Reports
+  442  mv Reports/quarterly_report.pdf Archived_Reports
+  443  mv Reports/monthly_sales_report.pdf Report/weekly_sales_report
+  444  mv Reports/monthly_sales_report.pdf Report/weekly_sales_report.pdf
+  445  mv Reports/monthly_sales_report.pdf weekly_sales_report
+  446  mv weekly_sales_report monthly_weekly_report
+  447  mv monthly_sales_report Reports/monthly_sales_report
+  448  mv monthly_sales_report.pdf Reports
+  449  mv Reports/monthly_sales_report.pdf Reports/weekly_sales_report.pdf
+  450  ls 
+  451  cd Archived_Reports
+  452  ls
+  453  cd ..
+  454  cd Data_Analysis
+  455  ls
+  456  cd ..
+  457  cd ETL
+  458  ls
+  459  cd ..
+  460  cd Raw_Data
+  461  ls
+  462  cd ..
+  463  cd Reports
+  464  ls
+  465  cd ..
+  466  pwd
+  467  touch sensitive_data.xlsx
+  468  chmod 700 Bi_server/sensitive_data.xlsx
+  469  chmod 700 sensitive_data.xlsx
+  470  ls -l sensitive_data.xlsx
+  471  chmod 777 sensitive_data.xlsx
+  472  ls -l sensitive_data.xlsx
+  473  chmod 700 sensitive_data
+  474  chmod 700 sensitive_data.xlsx
+  475  ls -l sensitive_data.xlsx
+  476  chmod 070 sensitive_data.xlsx
+  477  ls -l sensitive_data.xlsx
+  478  chmod 700 sensitive_data.xlsx
+  479  ls -l sensitive_data.xlsx
+  480  mkdir Backup
+  481  cp Raw_Data/* Backup
+  482  cp sensitive_data.xlsx Backup
+  483  cp Archived_Reports/* Backup
+  484  rm Archived_Reports/Annual_Report.pdf
+  485  rmdir ETL
+  486  cd ETL
+  487  rm Script+Files
+  488  rm Script_Files
+  489  cd ..
+  490  rmdir ETL
+  491  pwd
+  492  ls
+  493  cd Raw_Data
+  494  nano script.sh
+  495  ./script.sh
+  496  chmod +x script.sh./script.sh
+  497  nano script.sh
+  498  ./script.sh
+  499  nano script.sh
+  500  ./script.sh
+  501  cd ..
+  502  ./script.sh
+  503  cd Raw_Data
+  504  nano script.sh
+  505  chmod +x script.sh
+  506  ./script.sh
+  507  nano script.sh
+  508  history
+  509  history | grep report
+  510  history | grep file
+  511  CD ..
+  512  cd ..
+  513  uptime
+  514  top
+  515  nano script.sh
+  516  ls -l
+  517  ls -l Raw_Data
+  518  chmod 777 sensitive_data.xlsx
+  519  ls -l
+  520  chmod 700 sensitive_data.xlsx
+  521  ls -l
+  522  vim vimfile.txt
+  523  cat vimfile.txt
+  524  tac vimfile.txt
+  525  vim vimfile.txt
+  526  cat vimfile.txt
+  527  tac vimfile.txt
+  528  vim vimfile.txt
+  529  cat >> vimfile.txt
+  530  car vimfile.txt
+  531  cat vimfile.txt
+  532  find Bi_server/Raw_Data -name "weekly_sales_report.pdf "
+  533  find Raw_Data -name "weekly+sales_report.pdf "
+  534  find Raw_Data -name "weekly_sales_report.pdf"
+  535  grpe -i "revenue " Raw_Data/*.pdf
+  536  grep -i "revenue " Raw_Data/*.pdf
+  537  history
